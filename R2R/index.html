@@ -1,0 +1,922 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from themetechmount.com/html/altech/home-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Aug 2020 12:12:11 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Altech – IT Sollutions and Services HTML Template" />
+    <meta name="author" content="https://www.themetechmount.com/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>R2R</title>
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- animate -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- owl-carousel -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <!-- themify -->
+    <link rel="stylesheet" type="text/css" href="css/themify-icons.css" />
+    <!-- flaticon -->
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+
+    <!-- REVOLUTION LAYERS STYLES -->
+    <!--<link rel="stylesheet" type="text/css" href="revolution/css/rs6.css">-->
+    <!-- prettyphoto -->
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <!-- shortcodes -->
+    <link rel="stylesheet" type="text/css" href="css/shortcodes.css" />
+    <!-- main -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+   
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <style>
+        rs-sbg-px, rs-sbg-wrap {
+            filter: brightness(85%);
+        }
+    </style>
+
+   <script>
+       debugger;
+       $('.rs-slider').carousel({
+          interval: 5000
+           });
+    </script>
+   <style>
+       header .item {
+           height: 100vh;
+           position: relative;
+       }
+
+           header .item img {
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+           }
+
+           header .item .cover {
+               padding: 75px 0;
+               position: absolute;
+               width: 100%;
+               height: 100%;
+               top: 0;
+               left: 0;
+               background: rgba(0, 0, 0, 0.4);
+               display: flex;
+               align-items: center;
+           }
+
+               header .item .cover .header-content {
+                   position: relative;
+                   padding: 56px;
+                   overflow: hidden;
+               }
+
+                   header .item .cover .header-content .line {
+                       content: "";
+                       display: inline-block;
+                       width: 100%;
+                       height: 100%;
+                       left: 0;
+                       top: 0;
+                       position: absolute;
+                       border: 9px solid #fff;
+                       -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+                       clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+                   }
+
+                   header .item .cover .header-content h2 {
+                       font-weight: 300;
+                       font-size: 35px;
+                       color: #fff;
+                   }
+
+                   header .item .cover .header-content h1 {
+                       font-size: 56px;
+                       font-weight: 600;
+                       margin: 5px 0 20px;
+                       word-spacing: 3px;
+                       color: #fff;
+                   }
+
+                   header .item .cover .header-content h4 {
+                       font-size: 24px;
+                       font-weight: 300;
+                       line-height: 36px;
+                       color: #fff;
+                   }
+
+       header .owl-item.active h1 {
+           -webkit-animation-duration: 1s;
+           animation-duration: 1s;
+           -webkit-animation-fill-mode: both;
+           animation-fill-mode: both;
+           animation-name: fadeInDown;
+           animation-delay: 0.3s;
+       }
+
+       header .owl-item.active h2 {
+           -webkit-animation-duration: 1s;
+           animation-duration: 1s;
+           -webkit-animation-fill-mode: both;
+           animation-fill-mode: both;
+           animation-name: fadeInDown;
+           animation-delay: 0.3s;
+       }
+
+       header .owl-item.active h4 {
+           -webkit-animation-duration: 1s;
+           animation-duration: 1s;
+           -webkit-animation-fill-mode: both;
+           animation-fill-mode: both;
+           animation-name: fadeInUp;
+           animation-delay: 0.3s;
+       }
+
+       header .owl-item.active .line {
+           -webkit-animation-duration: 1s;
+           animation-duration: 1s;
+           -webkit-animation-fill-mode: both;
+           animation-fill-mode: both;
+           animation-name: fadeInLeft;
+           animation-delay: 0.3s;
+       }
+
+       header .owl-nav .owl-prev {
+           position: absolute;
+           left: 20px;
+           top: 50%;
+           opacity: 0;
+           -webkit-transition: all 0.4s ease-out;
+           transition: all 0.4s ease-out;
+           background: rgba(0, 0, 0, 0.5) !important;
+           width: 40px;
+           cursor: pointer;
+           height: 40px;
+           position: absolute;
+           display: block;
+           z-index: 1000;
+           border-radius: 0;
+       }
+
+           header .owl-nav .owl-prev span {
+               font-size: 1.6875rem;
+               color: #fff;
+           }
+
+           header .owl-nav .owl-prev:focus {
+               outline: 0;
+           }
+
+           header .owl-nav .owl-prev:hover {
+               background: #000 !important;
+           }
+
+       header .owl-nav .owl-next {
+           position: absolute;
+           right: 15px;
+           top: 50%;
+           opacity: 0;
+           -webkit-transition: all 0.4s ease-out;
+           transition: all 0.4s ease-out;
+           background: rgba(0, 0, 0, 0.5) !important;
+           width: 40px;
+           cursor: pointer;
+           height: 40px;
+           position: absolute;
+           display: block;
+           z-index: 1000;
+           border-radius: 0;
+       }
+
+           header .owl-nav .owl-next span {
+               font-size: 1.6875rem;
+               color: #fff;
+           }
+
+           header .owl-nav .owl-next:focus {
+               outline: 0;
+           }
+
+           header .owl-nav .owl-next:hover {
+               background: #000 !important;
+           }
+
+       header:hover .owl-prev {
+           left: 0px;
+           opacity: 1;
+       }
+
+       header:hover .owl-next {
+           right: 0px;
+           opacity: 1;
+       }
+   </style>
+   
+</head>
+
+<body>
+    <!--page start-->
+    <div class="page" id="page">
+        <!-- preloader start -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+        <!-- preloader end -->
+        <!--header start-->
+        <header id="masthead" class="header ttm-header-style-01">
+            <!-- ttm-topbar-wrapper -->
+            <div class="ttm-topbar-wrapper clearfix">
+                <div class="container">
+                    <div class="ttm-topbar-content">
+                        <ul class="top-contact text-left">
+                            <li><i class="fa fa-map-marker"></i>Springfield, PA 19064 </li>
+                            <li><i class="fa fa-envelope-o"></i><a href="#">info@r2rgroup.com</a></li>
+                            <li><i class="fa fa-phone"></i>+610 710 9835</li>
+                        </ul>
+                        <div class="topbar-right text-right">
+                            <!-- <ul class="top-contact">
+                        <li><i class="fa fa-clock-o"></i>Office Hour: 08:00am - 6:00pm</li>
+                    </ul> -->
+                            <div class="ttm-social-links-wrapper list-inline">
+                                <ul class="social-icons">
+                                    <li>
+                                        <!--<a href="#" class=" tooltip-bottom" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>-->
+                                    </li>
+                                    <li>
+                                        <!--<a href="#" class=" tooltip-bottom" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>-->
+                                    </li>
+                                    <li>
+                                        <!--<a href="#" class=" tooltip-bottom" data-tooltip="Flickr"><i class="fa fa-flickr"></i></a>-->
+                                    </li>
+                                    <li>
+                                        <!--<a href="#" class=" tooltip-bottom" data-tooltip="Linkedin"><i class="fa fa-linkedin"></i></a>-->
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-btn">
+                                <a class="ttm-btn ttm-btn-size-md  ttm-btn-bgcolor-skincolor" href="Contact.aspx">Get A Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- ttm-topbar-wrapper end -->
+            <!-- ttm-header-wrap -->
+            <div class="ttm-header-wrap">
+                <!-- ttm-stickable-header-w -->
+                <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
+                    <div id="site-header-menu" class="site-header-menu">
+                        <div class="site-header-menu-inner ttm-stickable-header">
+                            <div class="container">
+                                <!-- site-branding -->
+                                <div class="site-branding">
+                                    <a class="home-link" href="index.html" title="Altech" rel="home">
+                                        <img id="logo-img" class="img-center" src="logo.png" alt="logo">
+                                    </a>
+                                </div><!-- site-branding end -->
+                                <!--site-navigation -->
+                                <div id="site-navigation" class="site-navigation">
+                                    <div class="ttm-rt-contact">
+                                        <!-- header-icons -->
+                                        <!-- <div class="ttm-header-icons ">
+                                    <span class="ttm-header-icon ttm-header-cart-link">
+                                        <a href="#"><i class="ti ti-shopping-cart"></i>
+                                            <span class="number-cart">0</span>
+                                        </a>
+                                    </span>
+                                    <div class="ttm-header-icon ttm-header-search-link">
+                                        <a href="#"><i class="ti ti-search"></i></a>
+                                        <div class="ttm-search-overlay">
+                                            <form method="get" class="ttm-site-searchform" action="#">
+                                                <div class="w-search-form-h">
+                                                    <div class="w-search-form-row">
+                                                        <div class="w-search-input">
+                                                            <input type="search" class="field searchform-s" name="s" placeholder="Type Word Then Enter...">
+                                                            <button type="submit">
+                                                                <i class="ti ti-search"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                        <!-- header-icons end -->
+                                    </div>
+                                    <div class="ttm-menu-toggle">
+                                        <input type="checkbox" id="menu-toggle-form" />
+                                        <label for="menu-toggle-form" class="ttm-menu-toggle-block">
+                                            <span class="toggle-block toggle-blocks-1"></span>
+                                            <span class="toggle-block toggle-blocks-2"></span>
+                                            <span class="toggle-block toggle-blocks-3"></span>
+                                        </label>
+                                    </div>
+                                    <nav id="menu" class="menu" style="float: left;padding:0 100px">
+                                        <ul class="dropdown">
+                                            <li class="active">
+                                                <a href="index.html">Home</a>
+                                                <!-- <ul>
+                                            <li><a href="index.html">Homepage 1</a></li>
+                                            <li><a href="home-2.html">Homepage 2</a></li>
+                                            <li class="active"><a href="home-3.html">Homepage 3</a></li>
+                                            <li><a href="#">Header Styles</a>
+                                                <ul>
+                                                    <li><a href="index.html">Header Style 01</a></li>
+                                                    <li><a target="_blank" href="header-style-02.html">Header Style 02</a></li>
+                                                    <li><a target="_blank" href="header-style-03.html">Header Style 03</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul> -->
+                                            </li>
+                                            <li>
+                                                <a href="about.html">About</a>
+                                                <!-- <ul>
+                                            <li><a href="aboutus-01.html">About Us 1</a></li>
+                                            <li><a href="aboutus-02.html">About Us 2</a></li>
+                                            <li><a href="services-01.html">Services 1</a></li>
+                                            <li><a href="services-02.html">Services 2</a></li>
+                                            <li><a href="our-expert.html">Our Expert</a></li>
+                                            <li><a href="faq.html">FAQs</a></li>
+                                            <li><a href="contact-01.html">Contact Us 1</a></li>
+                                            <li><a href="contact-02.html">Contact Us 2</a></li>
+
+                                            <li><a href="error.html">Error Page</a></li>
+                                            <li><a href="element.html">Elements</a></li>
+                                        </ul> -->
+                                            </li>
+                                            <li>
+                                                <a href="service.html" onclick="service()">Services</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Cybersecurity and Consulting</a>
+                                                        <ul>
+                                                            <li><a href="CISOGuidance.html">CISO Advisory</a></li>
+                                                            <li><a href="CMMC.html">CMMC Compliance</a></li>
+                                                            <li><a href="#">NIST 800-171 Assessments</a></li>
+                                                            <li><a href="BusinessContinuityPlan.html">DR/BCP Planning/Testing</a></li>
+                                                            <li><a href="ItRiskAssessments.html">IT Risk Assessments</a></li>
+                                                        </ul>
+
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Certification and Attestation</a>
+                                                        <ul>
+                                                            <li><a href="soc1.html">SOC 1 Services</a></li>
+                                                            <li><a href="SOC2.html">SOC 2 Services</a></li>
+                                                            <li><a href="soc3.html">SOC 3 Services</a></li>
+                                                            <li><a href="Cybersecurity.html">SOC for Cybersecurity</a></li>
+                                                            <li><a href="VendorSupplyChain.html">SOC for Vendor Supply</a></li>
+                                                        </ul>
+
+                                                    </li>
+                                                    <li><a href="PenetrationTesting.html">Penetration Testing</a></li>
+                                                    <!-- <li><a href="data-structuring.html">Data Structuring</a></li>
+                                            <li><a href="experience-design.html">Experience Design</a></li>
+                                            <li><a href="content-engineering.html">Content Engineering</a></li> -->
+                                                    <li><a href="SecurityBanks.html">Bank & Credit Union IT Security</a></li><li><a href="Softwareservices.html">Software Services</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="Contact.aspx">Contact</a>
+                                                <!-- <ul>
+                                            <li><a href="project-style-01.html">Project Style 1</a></li>
+                                            <li><a href="project-style-02.html">Project Style 2</a></li>
+                                            <li><a href="#">Project Single</a>
+                                                <ul>
+                                                    <li><a href="single-style-01.html">Single Style 1</a></li>
+                                                    <li><a href="single-style-02.html">Single Style 2</a></li>
+                                                    <li><a href="single-style-03.html">Single Style 3</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul> -->
+                                            </li>
+                                            <!-- <li><a href="#">Blog</a>
+                                        <ul>
+                                            <li><a href="blog.html">Blog Classic</a></li>
+                                            <li><a href="blog-grid.html">Blog Grid View</a></li>
+                                            <li><a href="blog-top-image.html">Blog Top Image</a></li>
+                                            <li><a href="blog-left-image.html">Blog Left Image</a></li>
+                                            <li><a href="single-blog.html">Blog Single View</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Shop</a>
+                                        <ul>
+                                            <li><a href="shop.html">Default Shop</a></li>
+                                            <li><a href="product-details.html">Single Product Details</a></li>
+                                            <li><a href="cart.html">Cart</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                        </ul>
+                                    </li> -->
+                                        </ul>
+                                    </nav>
+                                </div><!-- site-navigation end-->
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- ttm-stickable-header-w end-->
+            </div><!--ttm-header-wrap end -->
+            <!--header end-->
+            <!-- START homeclassicmain REVOLUTION SLIDER 6.0.1 -->
+            <!-- END REVOLUTION SLIDER -->
+
+            <div class="owl-carousel owl-theme">
+                <div class="item" style="width: 1539px;margin-left:-15px">
+                    <img src="images/bank1.jpg" title="home-mainslider-bg003" alt="images not found">
+                    <div class="cover">
+                        <div class="container">
+                            <div class="header-content">
+                                <div class="line"></div>
+                                <h1>  IT Security Resource </h1>
+                                <h2>for Banks and Credit Unions</h2>
+
+                                <br />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="width: 1539px;margin-left:-15px">
+                    <img src="images/CMMChome2.png" title="home-mainslider-bg002" alt="images not found">
+                    <div class="cover">
+                        <div class="container">
+                            <div class="header-content">
+                                <div class="line animated bounceInLeft"></div>
+                                <h1>Cybersecurity Maturity Model Certification (CMMC)</h1>
+                                <h2>NIST 800-171</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="width: 1539px;margin-left:-15px">
+                    <img src="images/SOC1.png" alt="images not found">
+                    <div class="cover">
+                        <div class="container">
+                            <div class="header-content">
+                                <div class="line animated bounceInLeft"></div>
+                                <div><div><h1> Service Organization Control</h1></div><div style="color:blue;float:left"><h2> (SOC)</h2></div><h2>  &nbsp; Reports</h2></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="width: 1539px;margin-left:-15px">
+                    <img src="images/Pen1.jpg" alt="images not found">
+                    <div class="cover">
+                        <div class="container">
+                            <div class="header-content">
+                                <div class="line animated bounceInLeft"></div>
+                                <h1> Penetration Testing</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        <section class="ttm-row aboutus-section clearfix" id="scroll">
+            <div class="container">
+                <div class="row">
+                    <!-- row -->
+                    <div class="col-lg-12">
+                        <!-- section title -->
+                        <div class="section-title with-desc clearfix" id="counter">
+                            <div class="title-header">
+                                <h5 data-aos="fade-up">About us</h5>
+                                <div data-aos="fade-up"><h2 class="title">We make audits a  <span>better experience.</span></h2></div>
+                            </div>
+
+                        </div><!-- section title end -->
+                        <!-- row -->
+
+
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="title-desc text-justify">
+                            <p data-aos="fade-up">Our committed team of IT security specialists will assist you through the process. Our team spends the necessary time in planning stage to tailor an approach and audit methodology that fits your environment. We engage our clients to direct processes and controls to help them reach their goals and be successful with out the hassles.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative res-991-mt-30">
+                            <!-- ttm_single_image-wrapper -->
+                            <div class="ttm_single_image-wrapper">
+                                <img class="img-fluid lazyloaded" data-aos="fade-right" data-src="slider1.jpg" title="single-img-one" alt="single-img-one" src="slider1.jpg" style="border-radius:10px">
+                            </div><!-- ttm_single_image-wrapper end -->
+                            <!--featured-icon-box-->
+                            <div class="about-overlay-01">
+                                <p data-aos="fade-right" class="mb-0">Audits Attestations Consulting</p>
+                            </div>
+                            <!-- featured-icon-box end-->
+                        </div>
+                    </div>
+                </div>
+                <!-- row end -->
+                <!-- row -->
+                <div class="row">
+
+                </div><!-- row end-->
+            </div>
+        </section>
+        <!--site-main start-->
+
+        <section class="ttm-row tab-section clearfix" style="padding:0px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- section title -->
+                        <div class="section-title text-center with-desc clearfix">
+                            <div class="title-header">
+
+                                <h2 class="title" data-aos="fade-left">Our <span>Services</span></h2>
+                            </div>
+                        </div><!-- section title end -->
+                    </div>
+                </div>
+                <!-- row end -->
+                <!-- row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ttm-tabs text-center ttm-tab-style-classic style1">
+                            <ul class="tabs mb-20" data-aos="fade-right">
+                                <!-- tabs -->
+                                <li class="tab active"><a href="#"> <i class="flaticon flaticon-report"></i>Cybersecurity and Consulting</a></li>
+                                <li class="tab"><a href="#"> <i class="flaticon flaticon-computer"></i> Certification and Attestation </a></li>
+                                <li class="tab"><a href="#"> <i class="flaticon flaticon-system"></i> Penetration Testing </a></li>
+                                <li class="tab"><a href="#"> <i class="flaticon flaticon-computer-1"></i> Software Development </a></li>
+                                <!-- <li class="tab"><a href="#"> <i class="flaticon flaticon-interaction"></i> Banking </a></li>
+                                <li class="tab"><a href="#"> <i class="flaticon flaticon-analysis"></i> Medical </a></li> -->
+                            </ul><!-- tabs end-->
+                            <div class="content-tab width-100 box-shadow">
+                                <!--content-tabs -->
+                                <!-- content-inner -->
+                                <div class="content-inner active" style="display: block;">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="text-left" data-aos="fade-right">
+                                                <h3 class="title fs-30" style="color: #2d4a8a;">Cybersecurity and Consulting</h3>
+
+                                                <ul class="ttm-list ttm-list-textsize-medium ttm-list-style-icon pt-15">
+                                                    <li>
+                                                        <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                        <span class="ttm-list-li-content"><a href="CISOGuidance.html">CISO Advisory</a></span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                        <span class="ttm-list-li-content"><a href="CMMC.html">CMMC Compliance</a></span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                        <span class="ttm-list-li-content"><a href="#">NIST 800-171 Assessments</a></span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                        <span class="ttm-list-li-content"><a href="BusinessContinuityPlan.html">DR/BCP Planning/Testing</a> </span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                        <span class="ttm-list-li-content"><a href="ItRiskAssessments.html">IT Risk Assessments</a></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="grey-border res-991-mt-30 text-left" data-aos="fade-left">
+                                                <!-- ttm_single_image-wrapper -->
+                                                <div class="ttm_single_image-wrapper with-border15">
+                                                    <img class="img-fluid grey-boder" src="1.png" title="single-img-three" alt="single-img-three">
+                                                </div><!-- ttm_single_image-wrapper end -->
+                                            </div>
+                                        </div>
+                                    </div><!-- row end -->
+                                </div><!-- content-inner --><!-- row end-->
+                                <!-- content-inner -->
+                                <div class="content-inner" style="display: none;">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="grey-border text-left" data-aos="fade-up">
+
+                                                <div class="ttm_single_image-wrapper with-border15">
+                                                    <img class="img-fluid grey-boder" src="2.png" title="single-img-three" alt="single-img-three">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="text-left" data-aos="fade-up">
+                                                <h3 class="title fs-30" style="color: #2d4a8a;">Certification and Attestation</h3>
+
+                                                <ul class="ttm-list ttm-list-textsize-medium ttm-list-style-icon pt-15">
+                                                    <li>
+                                                        <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                        <span class="ttm-list-li-content"><a href="soc1.html">SOC 1 Services</a></span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                        <span class="ttm-list-li-content"><a href="SOC2.html">SOC 2 Services</a></span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                        <span class="ttm-list-li-content"><a href="soc3.html">SOC 3 Services</a></span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                        <span class="ttm-list-li-content"><a href="Cybersecurity.html">SOC for Cybersecurity </a></span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                        <span class="ttm-list-li-content"><a href="VendorSupplyChain.html">SOC for Vendor Supply</a></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div><!-- row end -->
+                                </div><!-- content-inner --><!-- row end-->
+                                <!-- content-inner -->
+                                <div class="content-inner" style="display: none;">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="text-left" data-aos="fade-up">
+                                                <h3 class="title fs-30" style="color: #2d4a8a;">Penetration Testing</h3>
+
+                                                <ul class="ttm-list ttm-list-textsize-medium ttm-list-style-icon pt-15">
+                                                    <li>
+                                                        <a href="PenetrationTesting.html">
+                                                            <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                            <span class="ttm-list-li-content">External Vulnerability Scanning</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="PenetrationTesting.html">
+                                                            <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                            <span class="ttm-list-li-content">Internal Vulnerability Scanning</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="PenetrationTesting.html">
+                                                            <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                            <span class="ttm-list-li-content">Social Engineering</span>
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="grey-border res-991-mt-30 text-up" data-aos="fade-left">
+                                                <!-- ttm_single_image-wrapper -->
+                                                <div class="ttm_single_image-wrapper with-border15">
+                                                    <img class="img-fluid grey-boder" src="3.png" title="single-img-three" alt="single-img-three">
+                                                </div><!-- ttm_single_image-wrapper end -->
+                                            </div>
+                                        </div>
+                                    </div><!-- row end -->
+                                </div><!-- content-inner --><!-- row end-->
+                                <!-- content-inner -->
+                                <div class="content-inner" style="display: none;">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="text-left" data-aos="fade-up">
+                                                <h3 class="title fs-30" style="color: #2d4a8a;">Software Services</h3>
+
+                                                <ul class="ttm-list ttm-list-textsize-medium ttm-list-style-icon pt-15">
+                                                    <li>
+                                                        <a href="Softwareservices.html">
+                                                            <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                            <span class="ttm-list-li-content">CRM Development</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="Softwareservices.html">
+                                                            <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                            <span class="ttm-list-li-content">Mobile Application Development</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="Softwareservices.html">
+                                                            <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                            <span class="ttm-list-li-content">Software Development</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="Softwareservices.html">
+                                                            <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                            <span class="ttm-list-li-content">Web Development</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="Softwareservices.html">
+                                                            <i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i>
+                                                            <span class="ttm-list-li-content">E-Commerce Development Services</span>
+                                                        </a>
+                                                    </li>
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="grey-border res-991-mt-30 text-up" data-aos="fade-left">
+                                                <!-- ttm_single_image-wrapper -->
+                                                <div class="ttm_single_image-wrapper with-border15">
+                                                    <img class="img-fluid grey-boder" src="images/SoftwareService.jfif" title="single-img-three" alt="single-img-three">
+                                                </div>
+                                                <!-- ttm_single_image-wrapper end --
+    <a href="images/SoftwareService.jfif">images/SoftwareService.jfif</a>>
+                                                </div>
+                                            </div>
+                                        </div><!-- row end -->
+                                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--footer start-->
+        <footer class="footer widget-footer clearfix">
+
+            <div class="second-footer ttm-textcolor-white bg-img2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 widget-area">
+                            <div class="widget widget_text  clearfix">
+                                <h3 class="widget-title">About Our Company</h3>
+                                <div class="textwidget widget-text">
+                                    Our committed team of IT security specialists will assist you through the process. Our team spends the necessary time in planning stage to tailor an approach and audit methodology that fits your environment.<a href="#">Read More...</a>
+                                </div>
+                                <!--<h5 class="mt-5">Follow Us On</h5>-->
+                                <div class="social-icons circle social-hover">
+                                    <ul class="list-inline">
+                                        <!--<li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>-->
+                                        <!--<li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
+                                        <!--<li class="social-flickr"><a class=" tooltip-top" target="_blank" href="#" data-tooltip="flickr"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>-->
+                                        <!--<li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="#" data-tooltip="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                            <div class="widget link-widget clearfix">
+                                <h3 class="widget-title">Quick Links</h3>
+                                <ul id="menu-footer-services">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="service.html">Services</a></li>
+                                    <li><a href="Contact.aspx">Contact</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                            <div class="widget flicker_widget clearfix">
+
+                                <div class="textwidget widget-text">
+                                    <div class="quicklink-box">
+                                        <!--  featured-icon-box -->
+                                        <div class="featured-icon-box left-icon" style="margin-left:20px">
+                                            <div class="featured-icon">
+                                                <!--  featured-icon -->
+                                                <div class="ttm-icon ttm-icon_element-style-round ttm-icon_element-bgcolor-skincolor ttm-icon_element-size-md ttm-icon_element-style-round">
+                                                    <span class="flaticon flaticon-clock"></span><!--  ttm-icon -->
+                                                </div>
+                                            </div>
+                                            <div class="featured-content" style="margin-left:20px">
+                                                <!--  featured-content -->
+                                                <div class="featured-desc">
+                                                    <!--  featured-desc -->
+                                                    <p>Talk To Our Support</p>
+                                                </div>
+                                                <div class="featured-title">
+                                                    <!--  featured-title -->
+                                                    <h5>+610 710 9835</h5>
+                                                </div>
+                                            </div>
+                                        </div><!--  featured-icon-box END -->
+
+                                    </div>
+
+                                    <div>
+                                        <p style="margin: 0px !important;"><i class="fa fa-envelope fa-2x" style="padding: 15px;"></i>info@r2rgroup.com</p>
+                                        <p><i class="fa fa-map-marker fa-2x" style="padding: 20px;"></i>Springfield, PA 19064</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer-text ttm-bgcolor-darkgrey ttm-textcolor-white">
+                <div class="container">
+                    <div class="row copyright">
+                        <div class="col-md-6">
+                            <div class="">
+
+                                <span>Designed &amp; Developed By <a href="http://www.uniqtechsolutions.com/">Uniqtech Solutions</a> </span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-right res-767-mt-10">
+                                <span>© copyright 2021 R2R all rights reserved.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--footer end-->
+        <!--back-to-top start-->
+        <a id="totop" href="#top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+        <!--back-to-top end-->
+    </div><!-- page end -->
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery-waypoints.js"></script>
+    <script src="js/jquery-validate.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/numinate.min6959.js?ver=4.9.3"></script>
+    <script src="js/lazysizes.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Revolution Slider -->
+    <script src="revolution/js/revolution.tools.min.js"></script>
+    <script src="revolution/js/rs6.min.js"></script>
+    <script src="revolution/js/slider.js"></script>
+    <script>
+        function service() {
+
+            window.location.href = "service.html";
+        }
+
+    </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+
+
+    </script>
+    <!-- Javascript end-->
+    <!--<script>
+        load();
+        function load() {
+            debugger;
+            var a = document.getElementById("ss");
+            var count = a.children.length;
+            for (var i = 0; i < count; i++) {
+                a.children[i].style.visible="hidden"
+            }
+            setTimeout(function () {
+
+            });
+        }
+    </script>-->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            dots: false,
+            nav: true,
+            mouseDrag: false,
+            autoplay: true,
+            animateOut: 'slideOutUp',
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+    </script>
+</body>
+
+
+<!-- Mirrored from themetechmount.com/html/altech/home-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Aug 2020 12:12:25 GMT -->
+</html>
